@@ -134,7 +134,7 @@ letter-spacing: 0.5px;
 }
 
 #home_slider{
-    background-image: url(http://themelazer.info/html/brigate/image/intro/slide-1.jpg);
+    background-image: url(slide-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -498,7 +498,7 @@ font-weight: 500;
 
 
 .sucess{
-    background-image: linear-gradient(#00000065,#00000065) ,url(http://themelazer.info/html/brigate/image/intro/why-choose-us1.jpg);
+    background-image: linear-gradient(#00000065,#00000065) ,url(why-choose-us1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -769,7 +769,7 @@ border: none;
 
 
 .latest_img{
-    background-image: url(http://themelazer.info/html/brigate/image/page/s02.jpg);
+    background-image: url(s02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -1143,33 +1143,14 @@ transform: translateY(-70px);
     display: inline-block;
 }
 
-.img_div_works .oneWork{
-margin: 55px 25px 25px 0px;
+
+.works_all_img_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 640px;
+    padding-top: 30px;
 }
-
-.img_div_works .TwoWork{
-    margin: 55px 25px 25px 0px;
-}
-
-.img_div_works .ThreeWork{
-    margin: 55px 0px 25px -1px;
-}
-
-
-.img_div_works .FourWork{
-margin: 0px 25px 0px 0px;
-}
-
-
-.img_div_works .FiveWork{
-    margin: 0px 25px 0px 0px;
-}
-
-.img_div_works .SixWork{
-    margin: 0px 0px 0px -1px;
-}
-
-
 
 
 
